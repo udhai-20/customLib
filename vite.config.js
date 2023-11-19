@@ -10,9 +10,9 @@ export default defineConfig({
       // Could also be a dictionary or array of multiple entry points
 
       entry: resolve(__dirname, "src/components/index.js"),
-      name: "dev-components-test",
+      name: "dev-components-test-v2",
       // the proper extensions will be added
-      fileName: "dev-components-test",
+      fileName: "dev-components-test-v2",
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
