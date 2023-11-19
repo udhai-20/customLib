@@ -26,12 +26,11 @@
     "clean": "npm uninstall dev-components-test-v2 && rm -rf node_modules/ dist/ package-lock.json dev-components-test-v2-*.tgz && npm install",
     "build:lib": "npm run build && npm pack && npm add dev-components-test-v2-*.tgz",
     "build:prod": "npm run clean && npm run build:lib",
-    "publish:lib":"npm uninstall dev-components-test-v2 && rm -rf node_modules/ package-lock.json && npm publish"
+    "publish:lib": "npm uninstall dev-components-test-v2 && rm -rf node_modules/ package-lock.json && npm publish"
   },
   "author": "UT",
   "license": "MIT",
   "dependencies": {
-    "dev-components-test-v": "file:dev-components-test-v2-1.0.9.tgz",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -48,5 +47,9 @@
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5",
     "vite": "^4.4.5"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

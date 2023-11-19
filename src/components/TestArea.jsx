@@ -1,4 +1,4 @@
-import { Button } from "dev-components-test";
+import { Button } from "dev-components-test-v2";
 
 const TestArea = () => {
   return (

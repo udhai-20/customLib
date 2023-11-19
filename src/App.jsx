@@ -1,7 +1,7 @@
-import "./App.css";
+// import "./App.css";
 import Button from "./components/Button";
 import TestArea from "./components/TestArea";
-// import "dev-components-test/dist/style.css";
+import "dev-components-test-v2/dist/style.css";
 function App() {
   return (
     <>
