@@ -25,7 +25,8 @@
     "preview": "vite preview",
     "clean": "npm uninstall dev-components-test && rm -rf node_modules/ dist/ package-lock.json dev-components-test-*.tgz && npm install",
     "build:lib": "npm run build && npm pack && npm add dev-components-test-*.tgz",
-    "build:prod": "npm run clean && npm run build:lib"
+    "build:prod": "npm run clean && npm run build:lib",
+    "publish:lib":"npm uninstall dev-components-test && rm -rf node_modules/ package-lock.json && npm publish"
   },
   "author": "UT",
   "license": "MIT",
